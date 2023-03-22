@@ -1,0 +1,17 @@
+The proposed methodology in Chapters 4 and 5 could be extended to correct
+range measurements after extracting and measuring the RJ and PJ in the
+light signal of the camera. This will be very useful since the available jitter can
+be compensated before the measurement. Since for a particular configuration
+of the AMCW camera (e.g., with default modulation frequency and integration 
+period), the periodic and random jitter in the illumination source is fixed
+amounts which can be computed with the proposed methodology. Then, considering
+the benchmark numerical results in Chapters 7 and 8 for the influence
+of the periodic and random jitter on range measurements, respectively, can
+be applied for compensating of the measurement. In addition, the proposed
+algorithm may be applied to extract the jitter in other types of ToF range
+imaging cameras such as pulse based and pseudo-noise based modulation cameras.
+This methodology can be used for jitter measurement in any kind of
+application where the reference clock signal cannot be accessed.
+A cheaper SDR USB dongle with the proposed algorithm for jitter extraction
+in ToF cameras at lower frequencies in the RF signal was investigated in
+Chapter 6.
